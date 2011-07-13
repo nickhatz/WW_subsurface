@@ -1,8 +1,8 @@
-/* Copyright (C) 2001, 2009 United States Government as represented by 
+/* Copyright (C) 2001, 2011 United States Government as represented by 
 the Administrator of the National Aeronautics and Space Administration. 
 All Rights Reserved. 
  * 
- * @author nhatzop
+ * @author Nikolaos J. Hatzopoulos
 */
 
 
@@ -40,12 +40,6 @@ import java.net.URI;
 import java.net.URLClassLoader;
 
 
-
-
-/**
- *
- * @author nickhatz
- */
 public class Subsurface_1 extends ApplicationTemplate{
     public static class AppFrame extends ApplicationTemplate.AppFrame{
         
@@ -229,6 +223,10 @@ public class Subsurface_1 extends ApplicationTemplate{
     
     
     public static void main(String[] args){
+        start("World Wind Shapefiles", AppFrame.class);
+    }
+    
+    public static void test(){
         start("World Wind Shapefiles", AppFrame.class);
     }
     

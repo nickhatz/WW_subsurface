@@ -1,4 +1,4 @@
-/* Copyright (C) 2001, 2009 United States Government as represented by 
+/* Copyright (C) 2001, 2011 United States Government as represented by 
 the Administrator of the National Aeronautics and Space Administration. 
 All Rights Reserved. 
 */
@@ -8,7 +8,7 @@ import gov.nasa.worldwind.render.Material;
 import gov.nasa.worldwind.util.Logging;
 
 /**
- * @author dcollins
+ * @author dcollins modified by Nikolaos J. Hatzopoulos
  * @version $Id: AnalyticSurfaceAttributes.java 12810 2009-11-19 19:03:49Z dcollins $
  */
 public class AnalyticSurfaceAttributes

@@ -1,4 +1,4 @@
-/* Copyright (C) 2001, 2009 United States Government as represented by 
+/* Copyright (C) 2001, 2011 United States Government as represented by 
 the Administrator of the National Aeronautics and Space Administration. 
 All Rights Reserved. 
 */
@@ -25,7 +25,7 @@ import java.util.ArrayList;
 import java.util.zip.*;
 
 /**
- * @author dcollins
+ * @author dcollins modified by Nikolaos J. Hatzopoulos
  * @version $Id: AnalyticSurfaceDemo.java 13691 2010-09-01 03:49:13Z dcollins $
  */
 public class AnalyticSurfaceDemo extends ApplicationTemplate

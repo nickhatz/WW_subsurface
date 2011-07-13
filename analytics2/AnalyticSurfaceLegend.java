@@ -1,4 +1,4 @@
-/* Copyright (C) 2001, 2009 United States Government as represented by 
+/* Copyright (C) 2001, 2011 United States Government as represented by 
 the Administrator of the National Aeronautics and Space Administration. 
 All Rights Reserved. 
 */
@@ -16,7 +16,7 @@ import java.text.*;
 import java.util.*;
 
 /**
- * @author dcollins
+ * @author dcollins modified  by Nikolaos J. Hatzopoulos
  * @version $Id: AnalyticSurfaceLegend.java 13766 2010-09-10 07:16:49Z pabercrombie $
  */
 public class AnalyticSurfaceLegend implements Renderable

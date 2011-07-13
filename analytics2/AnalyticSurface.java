@@ -1,4 +1,4 @@
-/* Copyright (C) 2001, 2009 United States Government as represented by 
+/* Copyright (C) 2001, 2011 United States Government as represented by 
 the Administrator of the National Aeronautics and Space Administration. 
 All Rights Reserved. 
 */
@@ -32,7 +32,7 @@ import java.util.List;
  * GridPointAttributes, or the caller specified iterable contains too few values, the unassigned grid points are given
  * default attributes: the default scalar value is 0, and the default color is {@link java.awt.Color#BLACK}.
  *
- * @author dcollins
+ * @author dcollins modified by Nikolaos J. Hatzopoulos
  * @version $Id: AnalyticSurface.java 13781 2010-09-12 03:33:39Z tgaskins $
  */
 public class AnalyticSurface implements Renderable, PreRenderable
