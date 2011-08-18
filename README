@@ -1,1 +1,45 @@
-TEST!!!
+World Wind Subsurface Features 
+by Nikolaos J. Hatzopoulos
+email: nhatzop@gmail.com
+
+This project aims to show subsurface features.
+
+The theory:
+
+if you use an object with this parameter:
+gl.glDisable(GL.GL_DEPTH_TEST);
+before it drawn you can see the object under the surface
+
+by changing the object inner opacity you control the contrast with the surface
+
+examples are:
+
+Subsurface_1.java
+
+I am using these data:
+http://forecast.chapman.edu/nickhatz/data.zip
+
+they are based on the first layer from this publication:
+http://pubs.usgs.gov/of/2005/1421/
+
+you need to convert the data ton WGS84 first
+and after that follow the worldwind instructions you will find in the forum
+using global mapper you will produce the bil files
+http://forum.worldwindcentral.com/showthread.php?t=21905
+
+the second example is Cylinders.java
+
+I am using vector type data from GML
+this is the thread I am explaining how to compile GDAL to support GML
+in worldwind JDK:
+http://forum.worldwindcentral.com/showthread.php?t=31532
+
+there are some other examples I was experimainting for this tools
+
+Have fun :)
+
+
+
+
+
+
