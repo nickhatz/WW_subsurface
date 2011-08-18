@@ -2,12 +2,12 @@
 the Administrator of the National Aeronautics and Space Administration. 
 All Rights Reserved. 
 */
-package gov.nasa.worldwind.examples.analytics2;
+package gov.nasa.worldwindx.examples.analytics2;
 
 import gov.nasa.worldwind.WorldWind;
 import gov.nasa.worldwind.avlist.*;
 import gov.nasa.worldwind.data.BufferWrapperRaster;
-import gov.nasa.worldwind.examples.ApplicationTemplate;
+import gov.nasa.worldwindx.examples.ApplicationTemplate;
 import gov.nasa.worldwind.formats.worldfile.WorldFile;
 import gov.nasa.worldwind.geom.*;
 import gov.nasa.worldwind.layers.RenderableLayer;

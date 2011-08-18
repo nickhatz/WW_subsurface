@@ -6,9 +6,9 @@ All Rights Reserved.
 */
 
 
-package gov.nasa.worldwind.examples.analytics2;
+package gov.nasa.worldwindx.examples.analytics2;
 
-import gov.nasa.worldwind.examples.ApplicationTemplate;
+import gov.nasa.worldwindx.examples.ApplicationTemplate;
 import java.io.IOException;
 import javax.xml.parsers.ParserConfigurationException;
 import org.xml.sax.SAXException;

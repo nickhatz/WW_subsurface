@@ -2,7 +2,7 @@
 the Administrator of the National Aeronautics and Space Administration. 
 All Rights Reserved. 
 */
-package gov.nasa.worldwind.examples.analytics2;
+package gov.nasa.worldwindx.examples.analytics2;
 
 import com.sun.opengl.util.j2d.*;
 import gov.nasa.worldwind.avlist.*;
