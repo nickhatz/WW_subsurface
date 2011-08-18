@@ -1,7 +1,10 @@
-/*
- * To change this template, choose Tools | Templates
- * and open the template in the editor.
- */
+/* Copyright (C) 2001, 2011 United States Government as represented by 
+the Administrator of the National Aeronautics and Space Administration. 
+All Rights Reserved. 
+ * 
+ * @author Nikolaos J. Hatzopoulos
+*/
+
 package gov.nasa.worldwindx.examples.analytics2;
 
 import java.io.IOException;

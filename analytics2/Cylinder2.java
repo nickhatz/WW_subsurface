@@ -23,7 +23,7 @@ import java.util.List;
  * A general cylinder volume defined by a center position, height and radius, or alternatively, by three axis radii.
  *
  * @author ccrick
- * @version $ID$
+ * @version Nikolaos J Hatzopoulos
  */
 public class Cylinder2 extends RigidShape
 {

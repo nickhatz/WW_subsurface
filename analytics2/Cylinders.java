@@ -31,6 +31,7 @@ import org.gdal.ogr.DataSource;
  *
  * @author ccrick
  * @version $Id: Cylinders.java 1 2011-07-16 23:22:47Z dcollins $
+ * @version $Id: Cylinders.java 1 2011-08-18 Nikolaos J. Hatzopoulos
  */
 public class Cylinders extends ApplicationTemplate
 {
@@ -61,7 +62,8 @@ public class Cylinders extends ApplicationTemplate
             gdal.SetConfigOption("GDAL_DATA", "data");
             ogr.RegisterAll();
             
-            String pszDataSource = "/home/nickhatz/my2.gml";
+            String pszDataSource = "WFS:http://nvclwebservices.vm.csiro.au/geoserverBH/wfs?SERVICE=WFS&REQUEST=GetFeature&VERSION=1.1.0&maxFeatures=100&typeName=gsml:Borehole";
+            //String pszDataSource = "/home/nickhatz/my2.gml";
             
             DataSource poDS;
             poDS = ogr.Open( pszDataSource);

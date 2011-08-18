@@ -2,6 +2,7 @@
 the Administrator of the National Aeronautics and Space Administration. 
 All Rights Reserved. 
 */
+
 package gov.nasa.worldwindx.examples.analytics2;
 
 import com.sun.opengl.util.BufferUtil;
@@ -32,8 +33,9 @@ import java.util.List;
  * GridPointAttributes, or the caller specified iterable contains too few values, the unassigned grid points are given
  * default attributes: the default scalar value is 0, and the default color is {@link java.awt.Color#BLACK}.
  *
- * @author dcollins modified by Nikolaos J. Hatzopoulos
+ * @author dcollins 
  * @version $Id: AnalyticSurface.java 13781 2010-09-12 03:33:39Z tgaskins $
+ * @version $Id: AnalyticSurface.java 2011-08-18 Nikolaos J. Hatzopoulos $
  */
 public class AnalyticSurface implements Renderable, PreRenderable
 {
