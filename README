@@ -22,9 +22,9 @@ http://forecast.chapman.edu/nickhatz/data.zip
 they are based on the first layer from this publication:
 http://pubs.usgs.gov/of/2005/1421/
 
-you need to convert the data ton WGS84 first
+you need to convert the data to WGS84 first
 and after that follow the worldwind instructions you will find in the forum
-using global mapper you will produce the bil files
+using global mapper to produce the bil files
 http://forum.worldwindcentral.com/showthread.php?t=21905
 
 the second example is Cylinders.java
