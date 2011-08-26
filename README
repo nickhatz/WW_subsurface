@@ -4,6 +4,12 @@ email: nhatzop@gmail.com
 
 This project aims to show subsurface features.
 
+These code is valid under worldwind SDK 1.2
+http://builds.worldwind.arc.nasa.gov/worldwind-releases/1.2/builds/worldwind-1.2.0.zip
+
+you need to extract the data into folder:
+src/gov/nasa/worldwindx/examples/analytics2
+
 The theory:
 
 if you use an object with this parameter:
@@ -27,12 +33,90 @@ and after that follow the worldwind instructions you will find in the forum
 using global mapper to produce the bil files
 http://forum.worldwindcentral.com/showthread.php?t=21905
 
-the second example is Cylinders.java
+you are going to get 3 files:
+data.bil
+data.hdr
+data.blw
 
-I am using vector type data from GML
-this is the thread I am explaining how to compile GDAL to support GML
-in worldwind JDK:
-http://forum.worldwindcentral.com/showthread.php?t=31532
+I have ziped these data and uploaded to an http server and the program
+is downloading the data from there.
+
+the second example is Cylinders.java
+you need GDAL libraries support with GML
+
+Build PROJ4 as a static library
+-------------------------------------------------------
+./configure --enable-static --disable-shared --prefix=`pwd` --libdir=`pwd` --without-libtool
+
+xerces-c
+-----------------------------------------------------
+./configure --prefix=`pwd`
+
+GDAL
+------------------------------------------------------
+
+./configure \
+--prefix=`pwd` \
+--without-libtool \
+--with-libz=internal \
+--with-png=internal \
+--with-jpeg=internal \
+--with-geotiff=internal \
+--with-libtiff=internal \
+--with-threads \
+--with-ogr \
+--without-grass \
+--without-pg \
+--without-grass \
+--without-libgrass \
+--without-cfitsio \
+--without-pcraster \
+--without-netcdf \
+--without-ogdi \
+--without-fme \
+--without-hdf4 \
+--without-hdf5 \
+--without-jasper \
+--without-ecw \
+--without-kakadu \
+--without-msg \
+--without-bsb \
+--without-oci \
+--without-grib \
+--without-mysql \
+--without-ingres \
+--with-xerces \
+--with-xerces-lib='-L/home/nickhatz/mygdal/xerces-c-3.1.0/lib -lxerces-c' \
+--with-xerces-inc=/home/nickhatz/mygdal/xerces-c-3.1.0/include \
+--with-expat=yes \
+--with-expat-lib=/usr/lib/libexpat.a \
+--without-odbc \
+--with-curl=/usr/lib/libcurl.a \
+--without-sqlite3 \
+--without-dwgdirect \
+--without-idb \
+--without-sde \
+--without-geos \
+--without-pam \
+--without-perl \
+--without-php \
+--without-ruby \
+--without-python \
+--without-mrsid \
+--without-jp2mrsid \
+--with-static-proj4=/home/nickhatz/mygdal/proj-4.7.0 \
+--enable-static \
+--disable-shared
+
+-------------------------------------------------------
+Generate JAVA bindings
+-------------------------------------------------------
+cd swig/java
+make clean
+make veryclean
+make generate
+make build
+
 
 there are some other examples I was experimainting for this tools
 
