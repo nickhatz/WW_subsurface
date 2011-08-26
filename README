@@ -42,7 +42,7 @@ I have ziped these data and uploaded to an http server and the program
 is downloading the data from there.
 
 the second example is Cylinders.java
-you need GDAL libraries support with GML
+you need GDAL libraries with GML support
 
 Build PROJ4 as a static library
 -------------------------------------------------------
